@@ -45,32 +45,6 @@ Proposed model: dual-stage soil injection via **SoilFiLM** (Stage 1) + **SoilTem
 
 ---
 
-## Repository Structure
-
-```
-AARN-CropMapping/
-├── notebooks/
-│   ├── Preprocessing.ipynb           # Data extraction from GeoTIFF tiles
-│   ├── Phase01_MCTNet.ipynb          # MCTNet reproduction + tuning
-│   ├── Phase02_Ablation.ipynb        # Covariate ablation study
-│   ├── Phase03_CASoilV2.ipynb        # MCTNetCASoilV2 training + evaluation
-│   └── Phase03_ComparisonCell.py     # Standalone Cell 8: all comparison charts
-│
-├── src/
-│   ├── architecture.py               # All model classes (MCTNet + MCTNetCASoilV2)
-│   └── utils.py                      # Training loop, evaluation, dataset
-│
-├── results/
-│   ├── phase1/new_mctnet_final_results.csv
-│   ├── phase2/new_ablation_final_results.csv
-│   └── phase3/
-│       ├── p3v2_final_results.csv
-│       └── p3_casoil_v1_results.csv
-│
-├── report/Phase3_Report.pdf
-├── .gitignore
-└── requirements.txt
-```
 
 > **Not tracked:** raw GeoTIFFs, `.npy` arrays, `.pth` weights — stored on Google Drive.
 
