@@ -1,0 +1,21 @@
+# Data — too large for GitHub (keep on Google Drive)
+*.npy
+*.tif
+*.tiff
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab
+*.ipynb_checkpoints

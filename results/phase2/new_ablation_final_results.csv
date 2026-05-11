@@ -1,0 +1,11 @@
+region,config,OA,Kappa,F1
+arkansas,MCTNet_Base,0.9533,0.9417,0.9529
+arkansas,MCTNet+Clim,0.9733,0.9667,0.9734
+arkansas,MCTNet+Soil,0.9767,0.9708,0.9767
+arkansas,MCTNet+Topo,0.9467,0.9333,0.9469
+arkansas,MCTNet+All,0.96,0.95,0.9599
+california,MCTNet_Base,0.9333,0.92,0.9326
+california,MCTNet+Clim,0.9333,0.92,0.9332
+california,MCTNet+Soil,0.95,0.94,0.9501
+california,MCTNet+Topo,0.8972,0.8767,0.8975
+california,MCTNet+All,0.9361,0.9233,0.9347
